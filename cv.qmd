@@ -4,7 +4,7 @@ title: "CV"
 
 # Curriculum Vitae
 
-[Download PDF version](docs/Olive_Edeko_CV_2026.pdf){.btn .btn-primary}
+[Download PDF version](Olive_Edeko_CV_2026.pdf){.btn .btn-primary}
 
 ## Education
 

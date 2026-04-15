@@ -4,7 +4,7 @@ title: ""
 
 ::: {.hero-home}
 
-![](Images/profile.jpg){.home-profile}
+![](images/profile.jpg){.home-profile}
 
 <div class="hero-badge">Business Analytics Portfolio</div>
 
@@ -16,7 +16,7 @@ This portfolio brings together my projects, reflections, and personal interests 
 
 ::: {.hero-buttons}
 [View Projects](projects/index.qmd){.btn .btn-primary .me-2}
-[View CV](docs/Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
+[View CV](Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
 :::
 
 :::

@@ -2,11 +2,12 @@ project:
   type: website
   output-dir: docs
   resources:
-  - files/*.pdf
+    - files/*.pdf
 
 website:
   title: "Olive Edeko"
-  favicon: images/favicon.png
+  favicon: Images/favicon.png
+  site-url: "https://oliveedeko.github.io/baa1104-portfolio/"
 
   navbar:
     left:
@@ -31,7 +32,7 @@ website:
 
     right:
       - text: CV
-        href: docs/Olive_Edeko_CV_2026.pdf
+        href: Olive_Edeko_CV_2026.pdf
         icon: file-earmark-text
       - icon: github
         href: https://github.com/oliveedeko

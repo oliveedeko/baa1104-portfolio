@@ -13,8 +13,7 @@ Thank you for visiting my portfolio. Please feel free to get in touch regarding 
 - **GitHub:** [github.com/oliveedeko](https://github.com/oliveedeko)
 
 ## CV
-
-[View CV](cv.qmd){.btn .btn-primary .me-2}
-[Download CV PDF](docs/Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
+[View CV](Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
+[Download CV PDF](Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
 
 :::

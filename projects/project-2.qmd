@@ -3,7 +3,7 @@ title: "Fraud Pattern Recognition and Mitigation Analysis"
 ---
 
 
-[Download Report](../docs/projects/fraud-pattern-recognition.pdf){.btn .btn-primary}
+[Download Report](projects/fraud-pattern-recognition.pdf){.btn .btn-primary}
 
 ## Overview
 
