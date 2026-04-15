@@ -2,7 +2,7 @@
 title: "Predicting Business Star Ratings Using the Official Yelp Dataset"
 ---
 
-[Download Report](projects/yelp-dataset-analysis.pdf)
+[Download Report](../project-files/yelp-dataset-analysis.pdf){.btn .btn-primary}
 
 ## Overview
 
