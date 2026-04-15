@@ -33,7 +33,7 @@ website:
 
     right:
       - text: CV
-        href: Olive_Edeko_CV_2026.pdf
+        href: files/cv.pdf
         icon: file-earmark-text
       - icon: github
         href: https://github.com/oliveedeko
