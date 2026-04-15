@@ -40,4 +40,4 @@ You can view my projects, reflections, and experience here:
 
 [View Projects](projects/index.qmd){.btn .btn-primary .me-2}
 [View Reflections](reflections.qmd){.btn .btn-outline-primary .me-2}
-[View CV](cv.qmd){.btn .btn-outline-secondary}
+[View CV](files/cv.pdf){.btn .btn-outline-primary}
