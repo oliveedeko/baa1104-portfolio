@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Fraud Pattern Recognition and Mitigation Analysis – Olive Edeko</title>
+<title>Predicting Business Star Ratings Using the Official Yelp Dataset – Olive Edeko</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -189,7 +189,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Fraud Pattern Recognition and Mitigation Analysis</h1>
+<h1 class="title">Predicting Business Star Ratings Using the Official Yelp Dataset</h1>
 </div>
 
 
@@ -206,58 +206,116 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><a href="../docs/projects/fraud-pattern-recognition.pdf" class="btn btn-primary">Download Report</a></p>
+<p><a href="../docs/projects/yelp-dataset-analysis.pdf" class="btn btn-primary">Download Report</a></p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project involved a detailed analysis of a fraud victim dataset to identify key demographic and behavioural patterns associated with fraudulent transactions.</p>
-<p>By examining 500 transaction records, the study aimed to develop data-driven strategies to mitigate fraud risk and improve customer satisfaction, particularly for vulnerable groups.</p>
+<p>This project examines the Official Yelp Dataset to determine how business-level data, such as categories and specific attributes, can predict a business’s star rating.</p>
+<p>Applying a Challenge Based Learning framework, the project proposes a niche analytics service to help businesses improve their reputation and visibility. It also explores how these insights can support Yelp’s internal operational decisions, such as identifying “Best of Yelp” candidates.</p>
 </section>
 <section id="recreated-analysis-from-project" class="level2">
 <h2 class="anchored" data-anchor-id="recreated-analysis-from-project">Recreated Analysis from Project</h2>
-<p>The chart below recreates one of the main findings from the fraud analysis by showing how fraud prevalence differed across selected demographic groups.</p>
-<div id="93f6192f" class="cell" data-execution_count="1">
+<p>The visualisation below recreates one of the key insights from the Yelp dataset analysis, showing how average star ratings vary across different business categories.</p>
+<div id="67af8678" class="cell" data-execution_count="1">
 <details class="code-fold">
-<summary>Code</summary>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Simplified recreation of findings from the project</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>groups <span class="op">=</span> [<span class="st">"Female"</span>, <span class="st">"Male"</span>, <span class="st">"Lower Income"</span>, <span class="st">"Higher Income"</span>, <span class="st">"Older Customers"</span>, <span class="st">"Younger Customers"</span>]</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>fraud_prevalence <span class="op">=</span> [<span class="dv">55</span>, <span class="dv">43</span>, <span class="dv">58</span>, <span class="dv">34</span>, <span class="dv">52</span>, <span class="dv">41</span>]</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">"#8C6A5D"</span>, <span class="st">"#6D7D8C"</span>, <span class="st">"#A67C52"</span>, <span class="st">"#7A8F6B"</span>, <span class="st">"#8A6F9E"</span>, <span class="st">"#5F8C87"</span>]</span>
+<summary>View code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> {</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Category"</span>: [<span class="st">"Food &amp; Restaurants"</span>, <span class="st">"Shopping"</span>, <span class="st">"Nightlife"</span>, <span class="st">"Health"</span>, <span class="st">"Hotels"</span>],</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">"Average Stars"</span>: [<span class="fl">4.2</span>, <span class="fl">4.4</span>, <span class="fl">3.9</span>, <span class="fl">4.3</span>, <span class="fl">4.5</span>]</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>}</span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">9</span>,<span class="dv">5</span>))</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>plt.bar(groups, fraud_prevalence, color<span class="op">=</span>colors)</span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Fraud Prevalence Across Selected Demographic Groups"</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Fraud Prevalence (%)"</span>)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="dv">0</span>, <span class="dv">70</span>)</span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation<span class="op">=</span><span class="dv">20</span>)</span>
-<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.DataFrame(data)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">"#7A8F6B"</span>, <span class="st">"#8C6A5D"</span>, <span class="st">"#6D7D8C"</span>, <span class="st">"#A67C52"</span>, <span class="st">"#8A6F9E"</span>]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">5</span>))</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>plt.barh(df[<span class="st">"Category"</span>], df[<span class="st">"Average Stars"</span>], color<span class="op">=</span>colors)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Average Star Ratings by Category"</span>)</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">"Average Stars"</span>)</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Category"</span>)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">"x"</span>, linestyle<span class="op">=</span><span class="st">"--"</span>, alpha<span class="op">=</span><span class="fl">0.4</span>)</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="project-2_files/figure-html/cell-2-output-1.png" width="733" height="477" class="figure-img"></p>
+<p><img src="project-1_files/figure-html/cell-2-output-1.png" width="773" height="449" class="figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-<p>This visualisation is a simplified recreation of the demographic patterns identified in the full report.</p>
-<p>The analysis suggested that fraud was more prevalent among female customers, lower-income groups, and older customers, while higher-income groups showed lower levels of fraud exposure. These findings are important because they show that fraud risk is not distributed evenly across the dataset. Recognising these demographic patterns can help organisations design more targeted fraud prevention strategies and improve protection for more vulnerable customer groups.</p>
+<p>This visualisation highlights how average ratings differ across business categories. It demonstrates how category-level insights can be used to identify trends in customer satisfaction and inform strategic decisions for businesses.</p>
+</section>
+<section id="predictive-modelling-approach" class="level2">
+<h2 class="anchored" data-anchor-id="predictive-modelling-approach">Predictive Modelling Approach</h2>
+<p>The project also explored predictive modelling techniques to estimate Yelp star ratings using business category indicators and key business-level features such as review count and location.</p>
+<div id="d56e1331" class="cell" data-execution_count="2">
+<details class="code-fold">
+<summary>View code</summary>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error, mean_absolute_error, r2_score</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>df_model <span class="op">=</span> pd.DataFrame({</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_food_restaurants"</span>: [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_shopping"</span>: [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>],</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_nightlife"</span>: [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>],</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_health_medical"</span>: [<span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>],</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">"review_count"</span>: [<span class="dv">120</span>, <span class="dv">85</span>, <span class="dv">210</span>, <span class="dv">65</span>, <span class="dv">150</span>, <span class="dv">95</span>],</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">"latitude"</span>: [<span class="fl">33.45</span>, <span class="fl">36.17</span>, <span class="fl">39.95</span>, <span class="fl">40.71</span>, <span class="fl">34.05</span>, <span class="fl">41.88</span>],</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>    <span class="st">"longitude"</span>: [<span class="op">-</span><span class="fl">112.07</span>, <span class="op">-</span><span class="fl">115.14</span>, <span class="op">-</span><span class="fl">75.16</span>, <span class="op">-</span><span class="fl">74.00</span>, <span class="op">-</span><span class="fl">118.24</span>, <span class="op">-</span><span class="fl">87.63</span>],</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">"stars"</span>: [<span class="fl">4.5</span>, <span class="fl">4.0</span>, <span class="fl">3.5</span>, <span class="fl">4.2</span>, <span class="fl">4.7</span>, <span class="fl">3.9</span>]</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>})</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>features <span class="op">=</span> [</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_food_restaurants"</span>,</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_shopping"</span>,</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_nightlife"</span>,</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"cat_health_medical"</span>,</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>    <span class="st">"review_count"</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a>    <span class="st">"latitude"</span>,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="st">"longitude"</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>]</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_model[features]</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_model[<span class="st">"stars"</span>]</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a>    X, y, test_size<span class="op">=</span><span class="fl">0.33</span>, random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestRegressor(</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>    n_estimators<span class="op">=</span><span class="dv">100</span>,</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>    random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> model.predict(X_test)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</details>
+</div>
+<p>This code reflects the modelling stage of the project, where business categories and selected business-level variables were used to predict Yelp star ratings. The Random Forest Regressor was particularly suitable because it can capture more complex, non-linear relationships in the data than a basic linear model.</p>
 </section>
 <section id="tools-used" class="level2">
 <h2 class="anchored" data-anchor-id="tools-used">Tools Used</h2>
 <ul>
-<li><strong>Data Processing:</strong> Excel was used for data cleaning, including rounding age variables and standardising numerical features such as credit scores and income for analysis.</li>
-<li><strong>Exploratory Data Analysis (EDA):</strong> Python was used to generate visualisations including histograms and correlation matrices to identify trends.</li>
-<li><strong>Statistical Techniques:</strong> Applied descriptive statistics and outlier flagging to isolate high-risk “extreme” transactions.</li>
+<li><strong>Data Engineering:</strong> Processed raw data into 12 key categories and 33 primary attributes.</li>
+<li><strong>Exploratory Data Analysis (EDA):</strong> Used Python to visualise market saturation and identify patterns in star distribution.</li>
+<li><strong>Predictive Modelling:</strong> Compared three regression techniques:
+<ul>
+<li><strong>Linear Regression:</strong> Established a baseline for variable relationships.</li>
+<li><strong>Random Forest Regressor:</strong> Selected for its ability to handle non-linear data and noise.</li>
+<li><strong>Gradient Boosting Regressor:</strong> Used to maximise accuracy through iterative error correction.</li>
+</ul></li>
 </ul>
 </section>
 <section id="outcome" class="level2">
 <h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
-<p>The analysis identified patterns that can help organisations better understand fraud exposure and respond more effectively. The project supports more targeted fraud mitigation strategies and contributes to improving protection for higher-risk customer groups.</p>
+<p>This project demonstrated how structured business data can be used to predict customer ratings and generate practical recommendations. It highlights the potential for analytics to improve business visibility, customer perception, and platform-level decision-making.</p>
 <p><a href="../projects/index.html">← Back to Projects</a></p>
 
 

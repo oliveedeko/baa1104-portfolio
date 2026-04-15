@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gort 2060: Strategic Foresight and Forecasting – Olive Edeko</title>
+<title>HealthPlus International: Global Sales &amp; Profitability Audit – Olive Edeko</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -189,7 +189,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gort 2060: Strategic Foresight and Forecasting</h1>
+<h1 class="title">HealthPlus International: Global Sales &amp; Profitability Audit</h1>
 </div>
 
 
@@ -206,57 +206,57 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p><a href="../docs/projects/gort-2060-report.pdf" class="btn btn-primary">Download Report</a></p>
+<p><a href="../docs/projects/healthplus-audit.pdf" class="btn btn-primary">Download Report</a></p>
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This report explores the long-term future of Gort, County Galway, through the year 2060.</p>
-<p>Using a combination of foresight and forecasting, the project examines Gort’s potential evolution in terms of population, economy, and digitalisation to support resilient strategic decision-making for policymakers.</p>
+<p>This project provides a comprehensive performance audit for HealthPlus International, a global entity operating across five regions.</p>
+<p>The analysis evaluates revenue, profit margins, and sales channel efficiency across ten product categories to identify high-growth opportunities and address operational inefficiencies caused by the COVID-19 pandemic.</p>
 </section>
 <section id="recreated-analysis-from-project" class="level2">
 <h2 class="anchored" data-anchor-id="recreated-analysis-from-project">Recreated Analysis from Project</h2>
-<p>The chart below recreates the scenario-based structure used in the Gort 2060 project by comparing the three future pathways developed in the report.</p>
-<div id="8af07f48" class="cell" data-execution_count="1">
+<p>The chart below recreates one of the main regional insights from the HealthPlus International audit by comparing profit margin performance across key regions.</p>
+<div id="219158dd" class="cell" data-execution_count="1">
 <details class="code-fold">
 <summary>Code</summary>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>scenarios <span class="op">=</span> [<span class="st">"Best-Case"</span>, <span class="st">"Business-as-Usual"</span>, <span class="st">"Worst-Case"</span>]</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>scores <span class="op">=</span> [<span class="dv">82</span>, <span class="dv">58</span>, <span class="dv">31</span>]</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>regions <span class="op">=</span> [<span class="st">"Asia"</span>, <span class="st">"Europe"</span>, <span class="st">"South America"</span>, <span class="st">"Africa"</span>, <span class="st">"North America"</span>]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>profit_margin <span class="op">=</span> [<span class="dv">24</span>, <span class="dv">23</span>, <span class="dv">20</span>, <span class="dv">19</span>, <span class="op">-</span><span class="dv">7</span>]</span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">"#6F8A6D"</span>, <span class="st">"#8A7A6D"</span>, <span class="st">"#7A6F8F"</span>]</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>colors <span class="op">=</span> [<span class="st">"#6F8A6D"</span>, <span class="st">"#8A6F9E"</span>, <span class="st">"#6D7D8C"</span>, <span class="st">"#A67C52"</span>, <span class="st">"#8C6A5D"</span>]</span>
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">7</span>,<span class="dv">4</span>))</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.bar(scenarios, scores, color<span class="op">=</span>colors)</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>,<span class="fl">4.5</span>))</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>plt.bar(regions, profit_margin, color<span class="op">=</span>colors)</span>
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Scenario Comparison for Gort 2060"</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Relative Future Readiness Score"</span>)</span>
-<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.ylim(<span class="dv">0</span>, <span class="dv">100</span>)</span>
-<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">'y'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">"Profit Margin by Region"</span>, fontsize<span class="op">=</span><span class="dv">14</span>)</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">"Profit Margin (%)"</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.axhline(<span class="dv">0</span>, color<span class="op">=</span><span class="st">"black"</span>, linewidth<span class="op">=</span><span class="fl">0.8</span>)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>plt.grid(axis<span class="op">=</span><span class="st">'y'</span>, linestyle<span class="op">=</span><span class="st">'--'</span>, alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </details>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="project-3_files/figure-html/cell-2-output-1.png" width="593" height="359" class="figure-img"></p>
+<p><img src="project-4_files/figure-html/cell-2-output-1.png" width="662" height="396" class="figure-img"></p>
 </figure>
 </div>
 </div>
 </div>
-<p>This visualisation is a simplified recreation of the scenario-based analysis presented in the full report.</p>
-<p>The Gort 2060 project used forecasting and foresight methods to explore how the town might develop under different future conditions. The best-case scenario reflects stronger digital integration, stable investment, and improved resilience, while the worst-case scenario reflects weaker coordination, lower investment, and greater long-term challenges. Presenting the scenarios visually helps show how strategic choices made today can shape very different outcomes for the future of Gort.</p>
+<p>This visualisation is a simplified recreation of the regional performance analysis presented in the full report.</p>
+<p>The HealthPlus audit showed clear differences in profitability across regions. Asia recorded the highest profit margin, followed closely by Europe, while North America stood out as the weakest-performing region with negative profitability. This comparison helps highlight where the business is performing efficiently and where operational or pricing issues may be reducing overall returns.</p>
 </section>
 <section id="tools-used" class="level2">
 <h2 class="anchored" data-anchor-id="tools-used">Tools Used</h2>
 <ul>
-<li><strong>Horizon Scanning and Driver Mapping:</strong> Identified signals of change and mapped the primary drivers influencing the town’s development.</li>
-<li><strong>Axes of Uncertainty:</strong> Used a framework to define the most critical and unpredictable factors facing the region.</li>
-<li><strong>Scenario Development:</strong> Created three distinct pathways—Best-Case, Worst-Case, and Business-as-Usual—to visualise Gort’s future state.</li>
+<li><strong>KPI Dashboards:</strong> Developed visual summaries of Total Revenue (125M) and Profit (20.7M) to track global performance.</li>
+<li><strong>Segment Analysis:</strong> Evaluated profitability by category, such as Education versus Travel, and by region, such as Europe versus North America.</li>
+<li><strong>Trend Analysis:</strong> Conducted a COVID-19 recovery assessment to model profit dynamics between 2016 and 2024.</li>
 </ul>
 </section>
 <section id="outcome" class="level2">
 <h2 class="anchored" data-anchor-id="outcome">Outcome</h2>
-<p>The project identified key growth assets, including Gort’s digital hub and cultural diversity, while also highlighting major challenges such as commercial vacancy and transport constraints. The final scenarios provided a roadmap for improving Gort’s competitiveness and showed that early, coordinated action and investment in youth opportunities are essential for long-term regional resilience.</p>
+<p>The audit highlighted key opportunities for growth and areas where profitability could be improved. It provided a clearer understanding of category and regional performance, helping support more informed business and operational decisions.</p>
 <p><a href="../projects/index.html">← Back to Projects</a></p>
 
 
