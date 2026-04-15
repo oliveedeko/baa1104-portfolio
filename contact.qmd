@@ -13,7 +13,14 @@ Thank you for visiting my portfolio. Please feel free to get in touch regarding 
 - **GitHub:** [github.com/oliveedeko](https://github.com/oliveedeko)
 
 ## CV
-[View CV](files/cv.pdf){.btn .btn-outline-primary}
+[View CV](files/cv.pdf){.btn .btn-outline-primary target="_blank"}
 [Download CV PDF](files/cv.pdf){.btn .btn-outline-primary}
 
 :::
+
+## Current Focus
+
+- [x] Build and publish portfolio website
+- [x] Showcase analytics projects
+- [x] Reflect on module learning
+- [ ] Continue updating portfolio with new work

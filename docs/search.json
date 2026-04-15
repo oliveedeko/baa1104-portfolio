@@ -49,11 +49,11 @@
     "text": "Background\nI previously completed a BA in Business Studies International at Dublin City University, where I developed a strong foundation in finance, economics, operations, and strategy. During this time, I also studied abroad at the Autonomous University of Barcelona, which gave me valuable international experience and broadened my cultural awareness.\nMy background across business, analytics, and reflection allows me to approach problems from both a technical and strategic perspective."
   },
   {
-    "objectID": "about.html#skills-tools",
-    "href": "about.html#skills-tools",
+    "objectID": "about.html#skills-snapshot",
+    "href": "about.html#skills-snapshot",
     "title": "About",
-    "section": "Skills & Tools",
-    "text": "Skills & Tools\n\nProgramming & Tools: Python, SQL, Excel, Power BI\n\nAnalytics: Data analysis, statistical modelling, data visualisation\n\nBusiness Skills: Problem-solving, communication, teamwork, strategic thinking"
+    "section": "Skills Snapshot",
+    "text": "Skills Snapshot\n\n\n\n\n\n\n\nArea\nSkills\n\n\n\n\nTechnical\nPython, SQL, Excel, Power BI\n\n\nAnalytics\nData analysis, statistical modelling, data visualisation\n\n\nProfessional\nCommunication, teamwork, strategic thinking, problem-solving"
   },
   {
     "objectID": "about.html#interests",
@@ -173,6 +173,13 @@
     "title": "Contact",
     "section": "CV",
     "text": "CV\nView CV Download CV PDF"
+  },
+  {
+    "objectID": "contact.html#current-focus",
+    "href": "contact.html#current-focus",
+    "title": "Contact",
+    "section": "Current Focus",
+    "text": "Current Focus\n\nBuild and publish portfolio website\nShowcase analytics projects\nReflect on module learning\nContinue updating portfolio with new work"
   },
   {
     "objectID": "projects/project-4.html",

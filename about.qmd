@@ -13,11 +13,13 @@ I previously completed a BA in Business Studies International at Dublin City Uni
 
 My background across business, analytics, and reflection allows me to approach problems from both a technical and strategic perspective.
 
-## Skills & Tools
+## Skills Snapshot
 
-- **Programming & Tools:** Python, SQL, Excel, Power BI  
-- **Analytics:** Data analysis, statistical modelling, data visualisation  
-- **Business Skills:** Problem-solving, communication, teamwork, strategic thinking  
+| Area | Skills |
+|---|---|
+| Technical | Python, SQL, Excel, Power BI |
+| Analytics | Data analysis, statistical modelling, data visualisation |
+| Professional | Communication, teamwork, strategic thinking, problem-solving |
 
 ## Interests
 
@@ -40,4 +42,4 @@ You can view my projects, reflections, and experience here:
 
 [View Projects](projects/index.qmd){.btn .btn-primary .me-2}
 [View Reflections](reflections.qmd){.btn .btn-outline-primary .me-2}
-[View CV](files/cv.pdf){.btn .btn-outline-primary}
+[View CV](files/cv.pdf){.btn .btn-outline-primary target="_blank"}
