@@ -16,7 +16,7 @@ This portfolio brings together my projects, reflections, and personal interests 
 
 ::: {.hero-buttons}
 [View Projects](projects/index.qmd){.btn .btn-primary .me-2}
-[View CV](Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
+[View CV](files/Olive_Edeko_CV_2026.pdf){.btn .btn-outline-primary}
 :::
 
 :::

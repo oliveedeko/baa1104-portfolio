@@ -3,10 +3,11 @@ project:
   output-dir: docs
   resources:
     - files/*.pdf
+    - project-files/*.pdf
 
 website:
   title: "Olive Edeko"
-  favicon: Images/favicon.png
+  favicon: images/favicon.png
   site-url: "https://oliveedeko.github.io/baa1104-portfolio/"
 
   navbar:
