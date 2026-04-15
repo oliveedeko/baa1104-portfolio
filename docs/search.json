@@ -1,16 +1,331 @@
 [
   {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Download PDF version\n\n\nDublin City University\nMSc Business Analytics | 2025 – Present\nKey focus areas include SQL, Python, Excel, Power BI, machine learning, generative AI, ethics, data governance, and strategic thinking.\nDublin City University\nBA Business Studies International | 2021 – 2025\nFinal-year specialism: Business Economics. I also completed a year abroad at the Autonomous University of Barcelona, where I developed my language skills and gained valuable international experience.\n\n\n\n\n\n\nExcel\nSQL\nPython\nPower BI\nStatistical analysis\nData visualisation and reporting\n\n\n\n\n\nAnalytical and critical thinking\nProblem-solving\nCommunication and presentation\nTeamwork\nTime management\nWorking under pressure\n\n\n\n\n\nGeneral Assistant\nGate Group Dublin | 2021 – Present\n\nPrepared and packed airline food products in compliance with strict quality, hygiene, and safety standards\nWorked efficiently in a fast-paced, time-critical environment\nSupported team operations to meet flight schedules and operational targets\nBuilt reliability, attention to detail, teamwork, and time management skills through continuous employment\n\n\n\n\n\nVolunteer work with the Louth SPCA\nFilms and books"
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "CV",
+    "section": "",
+    "text": "Dublin City University\nMSc Business Analytics | 2025 – Present\nKey focus areas include SQL, Python, Excel, Power BI, machine learning, generative AI, ethics, data governance, and strategic thinking.\nDublin City University\nBA Business Studies International | 2021 – 2025\nFinal-year specialism: Business Economics. I also completed a year abroad at the Autonomous University of Barcelona, where I developed my language skills and gained valuable international experience."
+  },
+  {
+    "objectID": "cv.html#skills",
+    "href": "cv.html#skills",
+    "title": "CV",
+    "section": "",
+    "text": "Excel\nSQL\nPython\nPower BI\nStatistical analysis\nData visualisation and reporting\n\n\n\n\n\nAnalytical and critical thinking\nProblem-solving\nCommunication and presentation\nTeamwork\nTime management\nWorking under pressure"
+  },
+  {
+    "objectID": "cv.html#experience",
+    "href": "cv.html#experience",
+    "title": "CV",
+    "section": "",
+    "text": "General Assistant\nGate Group Dublin | 2021 – Present\n\nPrepared and packed airline food products in compliance with strict quality, hygiene, and safety standards\nWorked efficiently in a fast-paced, time-critical environment\nSupported team operations to meet flight schedules and operational targets\nBuilt reliability, attention to detail, teamwork, and time management skills through continuous employment"
+  },
+  {
+    "objectID": "cv.html#interests",
+    "href": "cv.html#interests",
+    "title": "CV",
+    "section": "",
+    "text": "Volunteer work with the Louth SPCA\nFilms and books"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am a Master’s student in Business Analytics at Dublin City University. My interest in business analytics stems from a fascination with using data to support strategic decision-making and generate clear, valuable business insights.\nDuring this course, I have focused on areas such as predictive modelling, data analysis, and business performance evaluation. Alongside this, my reflective and written work has deepened my interest in how people think, make decisions, respond to environments, and engage with organisations, products, and wider social issues."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "Background",
+    "text": "Background\nI previously completed a BA in Business Studies International at Dublin City University, where I developed a strong foundation in finance, economics, operations, and strategy. During this time, I also studied abroad at the Autonomous University of Barcelona, which gave me valuable international experience and broadened my cultural awareness.\nMy background across business, analytics, and reflection allows me to approach problems from both a technical and strategic perspective."
+  },
+  {
+    "objectID": "about.html#skills-tools",
+    "href": "about.html#skills-tools",
+    "title": "About",
+    "section": "Skills & Tools",
+    "text": "Skills & Tools\n\nProgramming & Tools: Python, SQL, Excel, Power BI\n\nAnalytics: Data analysis, statistical modelling, data visualisation\n\nBusiness Skills: Problem-solving, communication, teamwork, strategic thinking"
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "Interests",
+    "text": "Interests\nI am particularly interested in: - business analytics and consulting\n- data-driven strategy\n- consumer behaviour and decision-making\n- machine learning applications\n- solving complex business challenges"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nAlongside my studies, I have worked in a fast-paced operational role at Gate Group Dublin, where I developed strong teamwork, attention to detail, and time management skills.\nMy academic and reflective work has also helped me think more deeply about communication, judgement, collaboration, and how analytical thinking can be applied in real-world contexts."
+  },
+  {
+    "objectID": "about.html#explore-my-work",
+    "href": "about.html#explore-my-work",
+    "title": "About",
+    "section": "Explore My Work",
+    "text": "Explore My Work\nYou can view my projects, reflections, and experience here:\nView Projects View Reflections View CV"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Olive Edeko",
+    "title": "Hi, I’m Olive Edeko",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Business Analytics Portfolio\n\n\n\nI am a Master’s student in Business Analytics at Dublin City University with a strong interest in data-driven decision-making, predictive modelling, and strategic analysis.\nThis portfolio brings together my projects, reflections, and personal interests to show how I combine analytical thinking with clear communication and real-world business understanding.\n\nView Projects View CV"
+  },
+  {
+    "objectID": "index.html#what-i-do",
+    "href": "index.html#what-i-do",
+    "title": "Hi, I’m Olive Edeko",
+    "section": "What I Do",
+    "text": "What I Do\n\n\n\n📊 Data Analysis\nUsing Python, SQL, Excel, and Power BI to explore datasets, identify patterns, and communicate insights clearly.\n\n\n\n\n🤖 Predictive Modelling\nApplying machine learning and analytical methods to support forecasting, evaluation, and decision-making.\n\n\n\n\n📈 Business Insights\nConnecting technical analysis with strategy, communication, and practical business recommendations."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Hi, I’m Olive Edeko",
+    "section": "Featured Projects",
+    "text": "Featured Projects"
+  },
+  {
+    "objectID": "index.html#yelp-dataset-analysis",
+    "href": "index.html#yelp-dataset-analysis",
+    "title": "Hi, I’m Olive Edeko",
+    "section": "Yelp Dataset Analysis",
+    "text": "Yelp Dataset Analysis\nPredicting business ratings using category-level data, business attributes, and machine learning techniques.\nView Project"
+  },
+  {
+    "objectID": "index.html#fraud-pattern-recognition",
+    "href": "index.html#fraud-pattern-recognition",
+    "title": "Hi, I’m Olive Edeko",
+    "section": "Fraud Pattern Recognition",
+    "text": "Fraud Pattern Recognition\nIdentifying high-risk demographic patterns and exploring how data can support fraud mitigation strategies.\nView Project"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "This page showcases a selection of my work across business analytics, strategy, and data-driven decision-making.\n\n\n\n\n\n\n\n\n\n\n\nFraud Pattern Recognition\n\n\n\nPython\n\nStatistics\n\nAnalytics\n\n\n\nIdentifying demographic and behavioural fraud patterns to support better detection strategies.\n\n\n\n\n\n\n\n\n\nGort 2060: Strategic Foresight\n\n\n\nStrategy\n\nForecasting\n\nForesight\n\n\n\nExploring future development pathways for Gort using forecasting and scenario planning.\n\n\n\n\n\n\n\n\n\nHealthPlus International Audit\n\n\n\nBusiness Intelligence\n\nKPIs\n\nData Analysis\n\n\n\nAnalysing regional profitability and business performance across a global organisation.\n\n\n\n\n\n\n\n\n\nYelp Dataset Analysis\n\n\n\nPython\n\nMachine Learning\n\nEDA\n\n\n\nPredicting business ratings using machine learning and data analysis.\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/project-3.html",
+    "href": "projects/project-3.html",
+    "title": "Gort 2060: Strategic Foresight and Forecasting",
+    "section": "",
+    "text": "Download Report"
+  },
+  {
+    "objectID": "projects/project-3.html#overview",
+    "href": "projects/project-3.html#overview",
+    "title": "Gort 2060: Strategic Foresight and Forecasting",
+    "section": "Overview",
+    "text": "Overview\nThis report explores the long-term future of Gort, County Galway, through the year 2060.\nUsing a combination of foresight and forecasting, the project examines Gort’s potential evolution in terms of population, economy, and digitalisation to support resilient strategic decision-making for policymakers."
+  },
+  {
+    "objectID": "projects/project-3.html#recreated-analysis-from-project",
+    "href": "projects/project-3.html#recreated-analysis-from-project",
+    "title": "Gort 2060: Strategic Foresight and Forecasting",
+    "section": "Recreated Analysis from Project",
+    "text": "Recreated Analysis from Project\nThe chart below recreates the scenario-based structure used in the Gort 2060 project by comparing the three future pathways developed in the report.\n\n\nCode\nimport matplotlib.pyplot as plt\n\nscenarios = [\"Best-Case\", \"Business-as-Usual\", \"Worst-Case\"]\nscores = [82, 58, 31]\n\ncolors = [\"#6F8A6D\", \"#8A7A6D\", \"#7A6F8F\"]\n\nplt.figure(figsize=(7,4))\nplt.bar(scenarios, scores, color=colors)\n\nplt.title(\"Scenario Comparison for Gort 2060\", fontsize=14)\nplt.ylabel(\"Relative Future Readiness Score\")\nplt.ylim(0, 100)\n\nplt.grid(axis='y', linestyle='--', alpha=0.3)\nplt.show()\n\n\n\n\n\n\n\n\n\nThis visualisation is a simplified recreation of the scenario-based analysis presented in the full report.\nThe Gort 2060 project used forecasting and foresight methods to explore how the town might develop under different future conditions. The best-case scenario reflects stronger digital integration, stable investment, and improved resilience, while the worst-case scenario reflects weaker coordination, lower investment, and greater long-term challenges. Presenting the scenarios visually helps show how strategic choices made today can shape very different outcomes for the future of Gort."
+  },
+  {
+    "objectID": "projects/project-3.html#tools-used",
+    "href": "projects/project-3.html#tools-used",
+    "title": "Gort 2060: Strategic Foresight and Forecasting",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nHorizon Scanning and Driver Mapping: Identified signals of change and mapped the primary drivers influencing the town’s development.\nAxes of Uncertainty: Used a framework to define the most critical and unpredictable factors facing the region.\nScenario Development: Created three distinct pathways—Best-Case, Worst-Case, and Business-as-Usual—to visualise Gort’s future state."
+  },
+  {
+    "objectID": "projects/project-3.html#outcome",
+    "href": "projects/project-3.html#outcome",
+    "title": "Gort 2060: Strategic Foresight and Forecasting",
+    "section": "Outcome",
+    "text": "Outcome\nThe project identified key growth assets, including Gort’s digital hub and cultural diversity, while also highlighting major challenges such as commercial vacancy and transport constraints. The final scenarios provided a roadmap for improving Gort’s competitiveness and showed that early, coordinated action and investment in youth opportunities are essential for long-term regional resilience.\n← Back to Projects"
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Thank you for visiting my portfolio. Please feel free to get in touch regarding opportunities, projects, or collaboration."
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "Contact",
+    "section": "Get in Touch",
+    "text": "Get in Touch\n\nEmail: oliveedeko@gmail.com\nLinkedIn: linkedin.com/in/oliveedeko\nGitHub: github.com/oliveedeko"
+  },
+  {
+    "objectID": "contact.html#cv",
+    "href": "contact.html#cv",
+    "title": "Contact",
+    "section": "CV",
+    "text": "CV\nView CV Download CV PDF"
+  },
+  {
+    "objectID": "projects/project-4.html",
+    "href": "projects/project-4.html",
+    "title": "HealthPlus International: Global Sales & Profitability Audit",
+    "section": "",
+    "text": "Download Report"
+  },
+  {
+    "objectID": "projects/project-4.html#overview",
+    "href": "projects/project-4.html#overview",
+    "title": "HealthPlus International: Global Sales & Profitability Audit",
+    "section": "Overview",
+    "text": "Overview\nThis project provides a comprehensive performance audit for HealthPlus International, a global entity operating across five regions.\nThe analysis evaluates revenue, profit margins, and sales channel efficiency across ten product categories to identify high-growth opportunities and address operational inefficiencies caused by the COVID-19 pandemic."
+  },
+  {
+    "objectID": "projects/project-4.html#recreated-analysis-from-project",
+    "href": "projects/project-4.html#recreated-analysis-from-project",
+    "title": "HealthPlus International: Global Sales & Profitability Audit",
+    "section": "Recreated Analysis from Project",
+    "text": "Recreated Analysis from Project\nThe chart below recreates one of the main regional insights from the HealthPlus International audit by comparing profit margin performance across key regions.\n\n\nCode\nimport matplotlib.pyplot as plt\n\nregions = [\"Asia\", \"Europe\", \"South America\", \"Africa\", \"North America\"]\nprofit_margin = [24, 23, 20, 19, -7]\n\ncolors = [\"#6F8A6D\", \"#8A6F9E\", \"#6D7D8C\", \"#A67C52\", \"#8C6A5D\"]\n\nplt.figure(figsize=(8,4.5))\nplt.bar(regions, profit_margin, color=colors)\n\nplt.title(\"Profit Margin by Region\", fontsize=14)\nplt.ylabel(\"Profit Margin (%)\")\nplt.axhline(0, color=\"black\", linewidth=0.8)\nplt.grid(axis='y', linestyle='--', alpha=0.3)\n\nplt.show()\n\n\n\n\n\n\n\n\n\nThis visualisation is a simplified recreation of the regional performance analysis presented in the full report.\nThe HealthPlus audit showed clear differences in profitability across regions. Asia recorded the highest profit margin, followed closely by Europe, while North America stood out as the weakest-performing region with negative profitability. This comparison helps highlight where the business is performing efficiently and where operational or pricing issues may be reducing overall returns."
+  },
+  {
+    "objectID": "projects/project-4.html#tools-used",
+    "href": "projects/project-4.html#tools-used",
+    "title": "HealthPlus International: Global Sales & Profitability Audit",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nKPI Dashboards: Developed visual summaries of Total Revenue (125M) and Profit (20.7M) to track global performance.\nSegment Analysis: Evaluated profitability by category, such as Education versus Travel, and by region, such as Europe versus North America.\nTrend Analysis: Conducted a COVID-19 recovery assessment to model profit dynamics between 2016 and 2024."
+  },
+  {
+    "objectID": "projects/project-4.html#outcome",
+    "href": "projects/project-4.html#outcome",
+    "title": "HealthPlus International: Global Sales & Profitability Audit",
+    "section": "Outcome",
+    "text": "Outcome\nThe audit highlighted key opportunities for growth and areas where profitability could be improved. It provided a clearer understanding of category and regional performance, helping support more informed business and operational decisions.\n← Back to Projects"
+  },
+  {
+    "objectID": "projects/project-2.html",
+    "href": "projects/project-2.html",
+    "title": "Fraud Pattern Recognition and Mitigation Analysis",
+    "section": "",
+    "text": "Download Report"
+  },
+  {
+    "objectID": "projects/project-2.html#overview",
+    "href": "projects/project-2.html#overview",
+    "title": "Fraud Pattern Recognition and Mitigation Analysis",
+    "section": "Overview",
+    "text": "Overview\nThis project involved a detailed analysis of a fraud victim dataset to identify key demographic and behavioural patterns associated with fraudulent transactions.\nBy examining 500 transaction records, the study aimed to develop data-driven strategies to mitigate fraud risk and improve customer satisfaction, particularly for vulnerable groups."
+  },
+  {
+    "objectID": "projects/project-2.html#recreated-analysis-from-project",
+    "href": "projects/project-2.html#recreated-analysis-from-project",
+    "title": "Fraud Pattern Recognition and Mitigation Analysis",
+    "section": "Recreated Analysis from Project",
+    "text": "Recreated Analysis from Project\nThe chart below recreates one of the main findings from the fraud analysis by showing how fraud prevalence differed across selected demographic groups.\n\n\nCode\nimport matplotlib.pyplot as plt\n\n# Simplified recreation of findings from the project\ngroups = [\"Female\", \"Male\", \"Lower Income\", \"Higher Income\", \"Older Customers\", \"Younger Customers\"]\nfraud_prevalence = [55, 43, 58, 34, 52, 41]\n\ncolors = [\"#8C6A5D\", \"#6D7D8C\", \"#A67C52\", \"#7A8F6B\", \"#8A6F9E\", \"#5F8C87\"]\n\nplt.figure(figsize=(9,5))\nplt.bar(groups, fraud_prevalence, color=colors)\n\nplt.title(\"Fraud Prevalence Across Selected Demographic Groups\", fontsize=14)\nplt.ylabel(\"Fraud Prevalence (%)\")\nplt.ylim(0, 70)\nplt.xticks(rotation=20)\n\nplt.show()\n\n\n\n\n\n\n\n\n\nThis visualisation is a simplified recreation of the demographic patterns identified in the full report.\nThe analysis suggested that fraud was more prevalent among female customers, lower-income groups, and older customers, while higher-income groups showed lower levels of fraud exposure. These findings are important because they show that fraud risk is not distributed evenly across the dataset. Recognising these demographic patterns can help organisations design more targeted fraud prevention strategies and improve protection for more vulnerable customer groups."
+  },
+  {
+    "objectID": "projects/project-2.html#tools-used",
+    "href": "projects/project-2.html#tools-used",
+    "title": "Fraud Pattern Recognition and Mitigation Analysis",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nData Processing: Excel was used for data cleaning, including rounding age variables and standardising numerical features such as credit scores and income for analysis.\nExploratory Data Analysis (EDA): Python was used to generate visualisations including histograms and correlation matrices to identify trends.\nStatistical Techniques: Applied descriptive statistics and outlier flagging to isolate high-risk “extreme” transactions."
+  },
+  {
+    "objectID": "projects/project-2.html#outcome",
+    "href": "projects/project-2.html#outcome",
+    "title": "Fraud Pattern Recognition and Mitigation Analysis",
+    "section": "Outcome",
+    "text": "Outcome\nThe analysis identified patterns that can help organisations better understand fraud exposure and respond more effectively. The project supports more targeted fraud mitigation strategies and contributes to improving protection for higher-risk customer groups.\n← Back to Projects"
+  },
+  {
+    "objectID": "projects/project-1.html",
+    "href": "projects/project-1.html",
+    "title": "Predicting Business Star Ratings Using the Official Yelp Dataset",
+    "section": "",
+    "text": "Download Report"
+  },
+  {
+    "objectID": "projects/project-1.html#overview",
+    "href": "projects/project-1.html#overview",
+    "title": "Predicting Business Star Ratings Using the Official Yelp Dataset",
+    "section": "Overview",
+    "text": "Overview\nThis project examines the Official Yelp Dataset to determine how business-level data, such as categories and specific attributes, can predict a business’s star rating.\nApplying a Challenge Based Learning framework, the project proposes a niche analytics service to help businesses improve their reputation and visibility. It also explores how these insights can support Yelp’s internal operational decisions, such as identifying “Best of Yelp” candidates."
+  },
+  {
+    "objectID": "projects/project-1.html#recreated-analysis-from-project",
+    "href": "projects/project-1.html#recreated-analysis-from-project",
+    "title": "Predicting Business Star Ratings Using the Official Yelp Dataset",
+    "section": "Recreated Analysis from Project",
+    "text": "Recreated Analysis from Project\nThe visualisation below recreates one of the key insights from the Yelp dataset analysis, showing how average star ratings vary across different business categories.\n\n\nView code\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\ndata = {\n    \"Category\": [\"Food & Restaurants\", \"Shopping\", \"Nightlife\", \"Health\", \"Hotels\"],\n    \"Average Stars\": [4.2, 4.4, 3.9, 4.3, 4.5]\n}\n\ndf = pd.DataFrame(data)\n\ncolors = [\"#7A8F6B\", \"#8C6A5D\", \"#6D7D8C\", \"#A67C52\", \"#8A6F9E\"]\n\nplt.figure(figsize=(8, 5))\nplt.barh(df[\"Category\"], df[\"Average Stars\"], color=colors)\n\nplt.title(\"Average Star Ratings by Category\")\nplt.xlabel(\"Average Stars\")\nplt.ylabel(\"Category\")\nplt.grid(axis=\"x\", linestyle=\"--\", alpha=0.4)\n\nplt.show()\n\n\n\n\n\n\n\n\n\nThis visualisation highlights how average ratings differ across business categories. It demonstrates how category-level insights can be used to identify trends in customer satisfaction and inform strategic decisions for businesses."
+  },
+  {
+    "objectID": "projects/project-1.html#predictive-modelling-approach",
+    "href": "projects/project-1.html#predictive-modelling-approach",
+    "title": "Predicting Business Star Ratings Using the Official Yelp Dataset",
+    "section": "Predictive Modelling Approach",
+    "text": "Predictive Modelling Approach\nThe project also explored predictive modelling techniques to estimate Yelp star ratings using business category indicators and key business-level features such as review count and location.\n\n\nView code\nimport pandas as pd\nfrom sklearn.model_selection import train_test_split\nfrom sklearn.ensemble import RandomForestRegressor\nfrom sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score\n\ndf_model = pd.DataFrame({\n    \"cat_food_restaurants\": [1, 0, 1, 0, 1, 0],\n    \"cat_shopping\": [0, 1, 0, 1, 0, 1],\n    \"cat_nightlife\": [0, 0, 1, 1, 0, 1],\n    \"cat_health_medical\": [0, 1, 0, 0, 1, 0],\n    \"review_count\": [120, 85, 210, 65, 150, 95],\n    \"latitude\": [33.45, 36.17, 39.95, 40.71, 34.05, 41.88],\n    \"longitude\": [-112.07, -115.14, -75.16, -74.00, -118.24, -87.63],\n    \"stars\": [4.5, 4.0, 3.5, 4.2, 4.7, 3.9]\n})\n\nfeatures = [\n    \"cat_food_restaurants\",\n    \"cat_shopping\",\n    \"cat_nightlife\",\n    \"cat_health_medical\",\n    \"review_count\",\n    \"latitude\",\n    \"longitude\"\n]\n\nX = df_model[features]\ny = df_model[\"stars\"]\n\nX_train, X_test, y_train, y_test = train_test_split(\n    X, y, test_size=0.33, random_state=42\n)\n\nmodel = RandomForestRegressor(\n    n_estimators=100,\n    random_state=42\n)\n\nmodel.fit(X_train, y_train)\npredictions = model.predict(X_test)\n\n\nThis code reflects the modelling stage of the project, where business categories and selected business-level variables were used to predict Yelp star ratings. The Random Forest Regressor was particularly suitable because it can capture more complex, non-linear relationships in the data than a basic linear model."
+  },
+  {
+    "objectID": "projects/project-1.html#tools-used",
+    "href": "projects/project-1.html#tools-used",
+    "title": "Predicting Business Star Ratings Using the Official Yelp Dataset",
+    "section": "Tools Used",
+    "text": "Tools Used\n\nData Engineering: Processed raw data into 12 key categories and 33 primary attributes.\nExploratory Data Analysis (EDA): Used Python to visualise market saturation and identify patterns in star distribution.\nPredictive Modelling: Compared three regression techniques:\n\nLinear Regression: Established a baseline for variable relationships.\nRandom Forest Regressor: Selected for its ability to handle non-linear data and noise.\nGradient Boosting Regressor: Used to maximise accuracy through iterative error correction."
+  },
+  {
+    "objectID": "projects/project-1.html#outcome",
+    "href": "projects/project-1.html#outcome",
+    "title": "Predicting Business Star Ratings Using the Official Yelp Dataset",
+    "section": "Outcome",
+    "text": "Outcome\nThis project demonstrated how structured business data can be used to predict customer ratings and generate practical recommendations. It highlights the potential for analytics to improve business visibility, customer perception, and platform-level decision-making.\n← Back to Projects"
+  },
+  {
+    "objectID": "media.html",
+    "href": "media.html",
+    "title": "Media & Interests",
+    "section": "",
+    "text": "Alongside my academic work, I enjoy engaging with films, TV shows, and books.\nI strongly believe that engaging with media, especially books and films, is important for intellectual development and helps people think more creatively and understand different perspectives."
+  },
+  {
+    "objectID": "media.html#explore-my-media",
+    "href": "media.html#explore-my-media",
+    "title": "Media & Interests",
+    "section": "Explore My Media",
+    "text": "Explore My Media"
+  },
+  {
+    "objectID": "media.html#favourites",
+    "href": "media.html#favourites",
+    "title": "Media & Interests",
+    "section": "⭐ Favourites",
+    "text": "⭐ Favourites\n\n\n\n\n\nFavourite Film\nUs — dir. Jordan Peele\nA film I really admire for its originality, symbolism, and social commentary. It combines psychological tension with deeper themes around identity and class.\n\n\n\n\n\n\n\nFavourite Show\nGame of Thrones\nI enjoy how it explores power, leadership, and strategy through complex characters and political conflict.\n\n\n\n\n\n\n\nFavourite Book\nThe Seven Husbands of Evelyn Hugo\nA compelling story about identity, ambition, and reinvention, with strong character development."
+  },
+  {
+    "objectID": "reflections.html",
+    "href": "reflections.html",
+    "title": "Reflections",
+    "section": "",
+    "text": "These reflections demonstrate my academic development, critical thinking, and ability to connect theory with real-world applications across different areas of study."
+  },
+  {
+    "objectID": "reflections.html#e-portfolio-and-business-analytics-challenges-module-reflection",
+    "href": "reflections.html#e-portfolio-and-business-analytics-challenges-module-reflection",
+    "title": "Reflections",
+    "section": "E-Portfolio and Business Analytics Challenges Module Reflection",
+    "text": "E-Portfolio and Business Analytics Challenges Module Reflection\nThis module focused on developing skills and gaining hands-on experience in designing and implementing cloud-based databases and workflows, as well as gaining proficiency in modern tools for data management and web development.\nAt the beginning of the module, we were introduced to a range of tools such as Quarto and GitHub. When asked if anyone had experience with these, I felt out of my depth, as the only tool I had previously used was Python from a module in the previous semester. As a result, I initially expected to struggle throughout the module.\nOne of the most valuable skills I developed was information presentation. Deciding what content to include on my website was a key learning experience, as it required me to think critically about how to represent myself both academically and personally. I learned how to structure information clearly and present it in a way that is both professional and engaging.\nI also learned how to build a website using Quarto, which I found surprisingly enjoyable. Although I expected it to be technically challenging, the hands-on nature of the lectures made the process much more accessible. In addition, I improved my ability to use colour schemes effectively to enhance visual appeal and readability. This also strengthened my attention to detail, as small errors in formatting, code structure, or file organisation could affect how the website rendered.\nThe guest lectures were particularly valuable as they provided insight into the real-world applications of business analytics. They highlighted the variety of ways analytics can be used across different industries and gave a clearer picture of the day-to-day responsibilities of a business analyst.\nOne key takeaway for me was gaining a new perspective on the use of AI in professional settings. Previously, I felt hesitant about using AI tools, but the guest lectures demonstrated how they can be used effectively and ethically to enhance productivity and support decision-making.\nOne of the main challenges I faced was understanding the next steps in the website development process. Initially, I was hesitant to ask for help, but over time I became more comfortable doing so, which made a significant difference in overcoming technical challenges.\nThis module has changed the way I think about both coding and presenting information. I now feel much more confident in my ability to undertake technical tasks, and building a website from scratch is something I would not have imagined being able to do before.\nOverall, this module has been highly valuable in preparing me for future job applications. The skills I have developed are directly relevant to real business environments and will enhance my employability."
+  },
+  {
+    "objectID": "reflections.html#other-reflections",
+    "href": "reflections.html#other-reflections",
+    "title": "Reflections",
+    "section": "Other Reflections",
+    "text": "Other Reflections\n\n\n\nStrategic Thinking Reflection Portfolio\nThis portfolio reflects on key ideas from the Strategic Thinking module, including decision-making, teamwork, and self-awareness.\nView PDF\n\n\n\n\nBrand Loyalty\nThis piece explores psychological and behavioural factors that influence brand loyalty and consumer decision-making.\nView PDF\n\n\n\n\nConsumer Diary\nThis reflection analyses everyday consumer behaviour and habit formation in digital environments.\nView PDF\n\n\n\n\nYear Abroad Reflection\nThis piece reflects on my academic and personal development during my year abroad in Barcelona.\nView PDF\n\n\n\n\nOp-Ed Brainstorm\nThis explores the social and strategic implications of financial rules in football.\nView PDF"
   }
 ]

@@ -1,21 +1,51 @@
 project:
   type: website
   output-dir: docs
+  resources:
+  - files/*.pdf
+
 website:
   title: "Olive Edeko"
+  favicon: images/favicon.png
+
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: Home
+        href: index.qmd
+        icon: house
+      - text: About
+        href: about.qmd
+        icon: person
+      - text: Projects
+        href: projects/index.qmd
+        icon: bar-chart
+      - text: Reflections
+        href: reflections.qmd
+        icon: journal-text
+      - text: Media
+        href: media.qmd
+        icon: film
+      - text: Contact
+        href: contact.qmd
+        icon: envelope
+
+    right:
+      - text: CV
+        href: docs/Olive_Edeko_CV_2026.pdf
+        icon: file-earmark-text
+      - icon: github
+        href: https://github.com/oliveedeko
+      - icon: linkedin
+        href: https://www.linkedin.com/in/oliveedeko
+
+  page-footer:
+    left: "© Olive Edeko"
+    right: "Built with Quarto"
 
 format:
   html:
     theme:
       - cosmo
-      - brand
-    css: styles.css
-    toc: true
-
-
-
+      - styles.scss
+    toc: false
+    page-layout: full

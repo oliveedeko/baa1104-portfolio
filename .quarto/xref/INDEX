@@ -4,5 +4,32 @@
   },
   "about.qmd": {
     "about.html": "b0078c74"
+  },
+  "contact.qmd": {
+    "contact.html": "602aa8e3"
+  },
+  "projects/project-4.qmd": {
+    "project-4.html": "e6cc2885"
+  },
+  "projects/project-3.qmd": {
+    "project-3.html": "df62a5c0"
+  },
+  "projects/project-2.qmd": {
+    "project-2.html": "132cb7c3"
+  },
+  "projects/index.qmd": {
+    "index.html": "2b434def"
+  },
+  "projects/project-1.qmd": {
+    "project-1.html": "1308289d"
+  },
+  "media.qmd": {
+    "media.html": "4568f7ad"
+  },
+  "reflections.qmd": {
+    "reflections.html": "654ea77a"
+  },
+  "cv.qmd": {
+    "cv.html": "2905d8f5"
   }
 }

@@ -2,4 +2,42 @@
 title: "About"
 ---
 
-About this site
+
+I am a Master's student in Business Analytics at Dublin City University. My interest in business analytics stems from a fascination with using data to support strategic decision-making and generate clear, valuable business insights.
+
+During this course, I have focused on areas such as predictive modelling, data analysis, and business performance evaluation. Alongside this, my reflective and written work has deepened my interest in how people think, make decisions, respond to environments, and engage with organisations, products, and wider social issues.
+
+## Background
+
+I previously completed a BA in Business Studies International at Dublin City University, where I developed a strong foundation in finance, economics, operations, and strategy. During this time, I also studied abroad at the Autonomous University of Barcelona, which gave me valuable international experience and broadened my cultural awareness.
+
+My background across business, analytics, and reflection allows me to approach problems from both a technical and strategic perspective.
+
+## Skills & Tools
+
+- **Programming & Tools:** Python, SQL, Excel, Power BI  
+- **Analytics:** Data analysis, statistical modelling, data visualisation  
+- **Business Skills:** Problem-solving, communication, teamwork, strategic thinking  
+
+## Interests
+
+I am particularly interested in:
+- business analytics and consulting  
+- data-driven strategy  
+- consumer behaviour and decision-making  
+- machine learning applications  
+- solving complex business challenges  
+
+## Experience
+
+Alongside my studies, I have worked in a fast-paced operational role at Gate Group Dublin, where I developed strong teamwork, attention to detail, and time management skills.
+
+My academic and reflective work has also helped me think more deeply about communication, judgement, collaboration, and how analytical thinking can be applied in real-world contexts.
+
+## Explore My Work
+
+You can view my projects, reflections, and experience here:
+
+[View Projects](projects/index.qmd){.btn .btn-primary .me-2}
+[View Reflections](reflections.qmd){.btn .btn-outline-primary .me-2}
+[View CV](cv.qmd){.btn .btn-outline-secondary}
