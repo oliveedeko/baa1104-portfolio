@@ -1,0 +1,57 @@
+---
+title: "Media & Interests"
+---
+
+Alongside my academic work, I enjoy engaging with films, TV shows, and books.  
+I strongly believe that engaging with media, especially books and films, is important for intellectual development and helps people think more creatively and understand different perspectives.
+
+## Explore My Media
+
+<div class="media-links">
+  <a href="https://letterboxd.com/oliveedeko/" target="_blank">
+    <img src="images/letterboxd.png" alt="Letterboxd" width="32">
+  </a>
+  <a href="https://www.goodreads.com/user/show/75990366-olive" target="_blank">
+    <img src="images/goodreads.png" alt="Goodreads" width="32">
+  </a>
+</div>
+
+
+## ⭐ Favourites
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.media-card}
+![](images/us-poster.jpg){.media-poster}
+
+### Favourite Film  
+**Us** — dir. Jordan Peele
+
+A film I really admire for its originality, symbolism, and social commentary. It combines psychological tension with deeper themes around identity and class.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.media-card}
+![](images/game-of-thrones-poster.jpg){.media-poster}
+
+### Favourite Show  
+**Game of Thrones**
+
+I enjoy how it explores power, leadership, and strategy through complex characters and political conflict.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.media-card}
+![](images/evelyn-hugo-cover.jpg){.media-poster}
+
+### Favourite Book  
+**The Seven Husbands of Evelyn Hugo**
+
+A compelling story about identity, ambition, and reinvention, with strong character development.
+:::
+:::
+
+:::

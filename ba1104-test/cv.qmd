@@ -1,0 +1,52 @@
+---
+title: "CV"
+---
+
+# Curriculum Vitae
+
+[Download PDF version](docs/Olive_Edeko_CV_2026.pdf){.btn .btn-primary}
+
+## Education
+
+**Dublin City University**  
+MSc Business Analytics | 2025 – Present
+
+Key focus areas include SQL, Python, Excel, Power BI, machine learning, generative AI, ethics, data governance, and strategic thinking.
+
+**Dublin City University**  
+BA Business Studies International | 2021 – 2025
+
+Final-year specialism: Business Economics. I also completed a year abroad at the Autonomous University of Barcelona, where I developed my language skills and gained valuable international experience.
+
+## Skills
+
+### Analytics and Technical
+- Excel
+- SQL
+- Python
+- Power BI
+- Statistical analysis
+- Data visualisation and reporting
+
+### Business and Professional
+- Analytical and critical thinking
+- Problem-solving
+- Communication and presentation
+- Teamwork
+- Time management
+- Working under pressure
+
+## Experience
+
+**General Assistant**  
+Gate Group Dublin | 2021 – Present
+
+- Prepared and packed airline food products in compliance with strict quality, hygiene, and safety standards
+- Worked efficiently in a fast-paced, time-critical environment
+- Supported team operations to meet flight schedules and operational targets
+- Built reliability, attention to detail, teamwork, and time management skills through continuous employment
+
+## Interests
+
+- Volunteer work with the Louth SPCA
+- Films and books

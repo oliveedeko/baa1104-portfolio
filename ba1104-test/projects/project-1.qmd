@@ -1,0 +1,112 @@
+---
+title: "Predicting Business Star Ratings Using the Official Yelp Dataset"
+---
+
+[Download Report](../docs/projects/yelp-dataset-analysis.pdf){.btn .btn-primary}
+
+## Overview
+
+This project examines the Official Yelp Dataset to determine how business-level data, such as categories and specific attributes, can predict a business's star rating.
+
+Applying a Challenge Based Learning framework, the project proposes a niche analytics service to help businesses improve their reputation and visibility. It also explores how these insights can support Yelp’s internal operational decisions, such as identifying "Best of Yelp" candidates.
+
+## Recreated Analysis from Project
+
+The visualisation below recreates one of the key insights from the Yelp dataset analysis, showing how average star ratings vary across different business categories.
+
+```{python}
+#| code-fold: true
+#| code-summary: "View code"
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = {
+    "Category": ["Food & Restaurants", "Shopping", "Nightlife", "Health", "Hotels"],
+    "Average Stars": [4.2, 4.4, 3.9, 4.3, 4.5]
+}
+
+df = pd.DataFrame(data)
+
+colors = ["#7A8F6B", "#8C6A5D", "#6D7D8C", "#A67C52", "#8A6F9E"]
+
+plt.figure(figsize=(8, 5))
+plt.barh(df["Category"], df["Average Stars"], color=colors)
+
+plt.title("Average Star Ratings by Category")
+plt.xlabel("Average Stars")
+plt.ylabel("Category")
+plt.grid(axis="x", linestyle="--", alpha=0.4)
+
+plt.show()
+```
+
+This visualisation highlights how average ratings differ across business categories. It demonstrates how category-level insights can be used to identify trends in customer satisfaction and inform strategic decisions for businesses.
+
+## Predictive Modelling Approach
+
+The project also explored predictive modelling techniques to estimate Yelp star ratings using business category indicators and key business-level features such as review count and location.
+
+```{python}
+#| code-fold: true
+#| code-summary: "View code"
+#| output: false
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
+
+df_model = pd.DataFrame({
+    "cat_food_restaurants": [1, 0, 1, 0, 1, 0],
+    "cat_shopping": [0, 1, 0, 1, 0, 1],
+    "cat_nightlife": [0, 0, 1, 1, 0, 1],
+    "cat_health_medical": [0, 1, 0, 0, 1, 0],
+    "review_count": [120, 85, 210, 65, 150, 95],
+    "latitude": [33.45, 36.17, 39.95, 40.71, 34.05, 41.88],
+    "longitude": [-112.07, -115.14, -75.16, -74.00, -118.24, -87.63],
+    "stars": [4.5, 4.0, 3.5, 4.2, 4.7, 3.9]
+})
+
+features = [
+    "cat_food_restaurants",
+    "cat_shopping",
+    "cat_nightlife",
+    "cat_health_medical",
+    "review_count",
+    "latitude",
+    "longitude"
+]
+
+X = df_model[features]
+y = df_model["stars"]
+
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.33, random_state=42
+)
+
+model = RandomForestRegressor(
+    n_estimators=100,
+    random_state=42
+)
+
+model.fit(X_train, y_train)
+predictions = model.predict(X_test)
+```
+
+This code reflects the modelling stage of the project, where business categories and selected business-level variables were used to predict Yelp star ratings. The Random Forest Regressor was particularly suitable because it can capture more complex, non-linear relationships in the data than a basic linear model.
+
+## Tools Used
+
+- **Data Engineering:** Processed raw data into 12 key categories and 33 primary attributes.
+- **Exploratory Data Analysis (EDA):** Used Python to visualise market saturation and identify patterns in star distribution.
+- **Predictive Modelling:** Compared three regression techniques:
+  - **Linear Regression:** Established a baseline for variable relationships.
+  - **Random Forest Regressor:** Selected for its ability to handle non-linear data and noise.
+  - **Gradient Boosting Regressor:** Used to maximise accuracy through iterative error correction.
+
+## Outcome
+
+This project demonstrated how structured business data can be used to predict customer ratings and generate practical recommendations. It highlights the potential for analytics to improve business visibility, customer perception, and platform-level decision-making.
+
+[← Back to Projects](index.qmd)

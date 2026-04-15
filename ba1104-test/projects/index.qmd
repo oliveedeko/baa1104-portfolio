@@ -1,0 +1,11 @@
+---
+title: "Projects"
+listing:
+  contents: projects.yml
+  type: grid
+  categories: true
+  sort: "title"
+  fields: [title, description, categories]
+---
+
+This page showcases a selection of my work across business analytics, strategy, and data-driven decision-making.

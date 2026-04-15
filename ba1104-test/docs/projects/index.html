@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Olive Edeko</title>
+<title>Projects – Olive Edeko</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-baa0ca4809027b480ece57242b5cf6bc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/favicon.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-ca8967988848fee84bf90e8f00d2de31.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,7 +71,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -79,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Olive Edeko</span>
     </a>
   </div>
@@ -90,49 +151,49 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-person" role="img">
+    <a class="nav-link" href="../about.html"> <i class="bi bi-person" role="img">
 </i> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects/index.html"> <i class="bi bi-bar-chart" role="img">
+    <a class="nav-link active" href="../projects/index.html" aria-current="page"> <i class="bi bi-bar-chart" role="img">
 </i> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./reflections.html"> <i class="bi bi-journal-text" role="img">
+    <a class="nav-link" href="../reflections.html"> <i class="bi bi-journal-text" role="img">
 </i> 
 <span class="menu-text">Reflections</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./media.html"> <i class="bi bi-collection-play" role="img">
+    <a class="nav-link" href="../media.html"> <i class="bi bi-film" role="img">
 </i> 
 <span class="menu-text">Media</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> <i class="bi bi-envelope" role="img">
+    <a class="nav-link" href="../contact.html"> <i class="bi bi-envelope" role="img">
 </i> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./docs/Olive_Edeko_CV_2026.pdf" target="_blank"> <i class="bi bi-file-earmark-text" role="img">
+    <a class="nav-link" href="../docs/Olive_Edeko_CV_2026.pdf"> <i class="bi bi-file-earmark-text" role="img">
 </i> 
 <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/oliveedeko" target="_blank"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/oliveedeko"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/oliveedeko" target="_blank"> <i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/oliveedeko"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -147,70 +208,128 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="QW5hbHl0aWNz">Analytics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2U=">Business Intelligence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMEFuYWx5c2lz">Data Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RURB">EDA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9yZXNpZ2h0">Foresight <span class="quarto-category-count">(1)</span></div><div class="category" data-category="S1BJcw==">KPIs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="U3RhdGlzdGljcw==">Statistics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RyYXRlZ3k=">Strategy <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Projects</h1>
+</div>
+
+
+
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>This page showcases a selection of my work across business analytics, strategy, and data-driven decision-making.</p>
 
 
 
 
-<section id="hi-im-olive-edeko" class="level1 hero-section">
-<h1>Hi, I’m Olive Edeko</h1>
-<p>I am a Master’s student in Business Analytics at Dublin City University, with a strong interest in data-driven decision-making, predictive modelling, and strategic analysis.</p>
-<p>My work focuses on using data to uncover insights, support business decisions, and solve real-world problems.</p>
-<p><a href="./projects/index.html" class="btn btn-primary me-2">View Projects</a> <a href="docs/Olive_Edeko_CV_2026.pdf" class="btn btn-outline-primary">View CV</a></p>
-</section>
-<section id="what-i-do" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-do">What I Do</h2>
-<div class="grid">
-<div class="g-col-12 g-col-md-4">
-<section id="data-analysis" class="level3 feature-box">
-<h3 class="anchored" data-anchor-id="data-analysis">📊 Data Analysis</h3>
-<p>Using Python and statistical techniques to explore data and uncover insights.</p>
-</section>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="UHl0aG9uJTJDU3RhdGlzdGljcyUyQ0FuYWx5dGljcw==" data-listing-file-modified-sort="1776251650693" data-listing-reading-time-sort="2" data-listing-word-count-sort="290">
+<a href="../projects/project-2.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Fraud Pattern Recognition
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RhdGlzdGljcw=='); return false;">Statistics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QW5hbHl0aWNz'); return false;">Analytics</div>
+
 </div>
-<div class="g-col-12 g-col-md-4">
-<section id="predictive-modelling" class="level3 feature-box">
-<h3 class="anchored" data-anchor-id="predictive-modelling">🤖 Predictive Modelling</h3>
-<p>Applying machine learning models to support forecasting and decision-making.</p>
-</section>
-</div>
-<div class="g-col-12 g-col-md-4">
-<section id="business-insights" class="level3 feature-box">
-<h3 class="anchored" data-anchor-id="business-insights">📈 Business Insights</h3>
-<p>Translating data into actionable recommendations for business strategy.</p>
-</section>
+<div class="card-text listing-description delink">
+<p>Identifying demographic and behavioural fraud patterns to support better detection strategies.</p>
 </div>
 </div>
-</section>
-<section id="featured-projects" class="level2">
-<h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
-</section>
-<div class="grid">
-<div class="g-col-12 g-col-md-6">
-<section id="yelp-dataset-analysis" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="yelp-dataset-analysis">Yelp Dataset Analysis</h2>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="U3RyYXRlZ3klMkNGb3JlY2FzdGluZyUyQ0ZvcmVzaWdodA==" data-listing-file-modified-sort="1776251660924" data-listing-reading-time-sort="2" data-listing-word-count-sort="282">
+<a href="../projects/project-3.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Gort 2060: Strategic Foresight
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3RyYXRlZ3k='); return false;">Strategy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Rm9yZWNhc3Rpbmc='); return false;">Forecasting</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Rm9yZXNpZ2h0'); return false;">Foresight</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Exploring future development pathways for Gort using forecasting and scenario planning.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2UlMkNLUElzJTJDRGF0YSUyMEFuYWx5c2lz" data-listing-file-modified-sort="1776251669272" data-listing-reading-time-sort="2" data-listing-word-count-sort="263">
+<a href="../projects/project-4.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HealthPlus International Audit
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('QnVzaW5lc3MlMjBJbnRlbGxpZ2VuY2U='); return false;">Business Intelligence</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('S1BJcw=='); return false;">KPIs</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEFuYWx5c2lz'); return false;">Data Analysis</div>
+
+</div>
+<div class="card-text listing-description delink">
+<p>Analysing regional profitability and business performance across a global organisation.</p>
+</div>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="UHl0aG9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDRURB" data-listing-file-modified-sort="1776257122080" data-listing-reading-time-sort="3" data-listing-word-count-sort="520">
+<a href="../projects/project-1.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Yelp Dataset Analysis
+</h5>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RURB'); return false;">EDA</div>
+
+</div>
+<div class="card-text listing-description delink">
 <p>Predicting business ratings using machine learning and data analysis.</p>
-<p><a href="./projects/project-1.html" class="btn btn-primary">View Project</a></p>
-</section>
-</div>
-<div class="g-col-12 g-col-md-6">
-<section id="fraud-pattern-recognition" class="level2 project-card">
-<h2 class="anchored" data-anchor-id="fraud-pattern-recognition">Fraud Pattern Recognition</h2>
-<p>Identifying high-risk groups using demographic and behavioural data.</p>
-<p><a href="./projects/project-2.html" class="btn btn-primary">View Project</a></p>
-</section>
 </div>
 </div>
-<section id="about-me" class="level2">
-<h2 class="anchored" data-anchor-id="about-me">About Me</h2>
-<p>I combine a background in business with technical analytics skills, allowing me to approach problems from both a strategic and data-driven perspective.</p>
-<p><a href="./about.html" class="btn btn-outline-primary">Read More</a></p>
-
-
-</section>
-
-</main> <!-- /main -->
+</div></a>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -615,7 +734,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Olive Edeko Portfolio</p>
+<p>© Olive Edeko</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

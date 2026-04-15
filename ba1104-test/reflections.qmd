@@ -1,0 +1,83 @@
+---
+title: "Reflections"
+---
+
+These reflections demonstrate my academic development, critical thinking, and ability to connect theory with real-world applications across different areas of study.
+
+## E-Portfolio and Business Analytics Challenges Module Reflection
+
+This module focused on developing skills and gaining hands-on experience in designing and implementing cloud-based databases and workflows, as well as gaining proficiency in modern tools for data management and web development.
+
+At the beginning of the module, we were introduced to a range of tools such as Quarto and GitHub. When asked if anyone had experience with these, I felt out of my depth, as the only tool I had previously used was Python from a module in the previous semester. As a result, I initially expected to struggle throughout the module.
+
+One of the most valuable skills I developed was information presentation. Deciding what content to include on my website was a key learning experience, as it required me to think critically about how to represent myself both academically and personally. I learned how to structure information clearly and present it in a way that is both professional and engaging.
+
+I also learned how to build a website using Quarto, which I found surprisingly enjoyable. Although I expected it to be technically challenging, the hands-on nature of the lectures made the process much more accessible. In addition, I improved my ability to use colour schemes effectively to enhance visual appeal and readability. This also strengthened my attention to detail, as small errors in formatting, code structure, or file organisation could affect how the website rendered.
+
+The guest lectures were particularly valuable as they provided insight into the real-world applications of business analytics. They highlighted the variety of ways analytics can be used across different industries and gave a clearer picture of the day-to-day responsibilities of a business analyst.
+
+One key takeaway for me was gaining a new perspective on the use of AI in professional settings. Previously, I felt hesitant about using AI tools, but the guest lectures demonstrated how they can be used effectively and ethically to enhance productivity and support decision-making.
+
+One of the main challenges I faced was understanding the next steps in the website development process. Initially, I was hesitant to ask for help, but over time I became more comfortable doing so, which made a significant difference in overcoming technical challenges.
+
+This module has changed the way I think about both coding and presenting information. I now feel much more confident in my ability to undertake technical tasks, and building a website from scratch is something I would not have imagined being able to do before.
+
+Overall, this module has been highly valuable in preparing me for future job applications. The skills I have developed are directly relevant to real business environments and will enhance my employability.
+
+---
+
+## Other Reflections
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.reflection-card}
+### Strategic Thinking Reflection Portfolio
+
+This portfolio reflects on key ideas from the Strategic Thinking module, including decision-making, teamwork, and self-awareness.
+
+[View PDF](files/mna1169-reflective-portfolio.pdf){.btn .btn-primary}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.reflection-card}
+### Brand Loyalty
+
+This piece explores psychological and behavioural factors that influence brand loyalty and consumer decision-making.
+
+[View PDF](files/brand-loyalty.pdf){.btn .btn-primary}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.reflection-card}
+### Consumer Diary
+
+This reflection analyses everyday consumer behaviour and habit formation in digital environments.
+
+[View PDF](files/consumer-diary.pdf){.btn .btn-primary}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.reflection-card}
+### Year Abroad Reflection
+
+This piece reflects on my academic and personal development during my year abroad in Barcelona.
+
+[View PDF](files/year-abroad.pdf){.btn .btn-primary}
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.reflection-card}
+### Op-Ed Brainstorm
+
+This explores the social and strategic implications of financial rules in football.
+
+[View PDF](files/op-ed-brainstorm.pdf){.btn .btn-primary}
+:::
+:::
+
+:::

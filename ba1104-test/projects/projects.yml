@@ -1,0 +1,19 @@
+- title: "Yelp Dataset Analysis"
+  description: "Predicting business ratings using machine learning and data analysis."
+  path: project-1.qmd
+  categories: [Python, Machine Learning, EDA]
+
+- title: "Fraud Pattern Recognition"
+  description: "Identifying demographic and behavioural fraud patterns to support better detection strategies."
+  path: project-2.qmd
+  categories: [Python, Statistics, Analytics]
+
+- title: "Gort 2060: Strategic Foresight"
+  description: "Exploring future development pathways for Gort using forecasting and scenario planning."
+  path: project-3.qmd
+  categories: [Strategy, Forecasting, Foresight]
+
+- title: "HealthPlus International Audit"
+  description: "Analysing regional profitability and business performance across a global organisation."
+  path: project-4.qmd
+  categories: [Business Intelligence, KPIs, Data Analysis]

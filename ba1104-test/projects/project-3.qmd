@@ -1,0 +1,53 @@
+---
+title: "Gort 2060: Strategic Foresight and Forecasting"
+---
+
+
+[Download Report](../docs/projects/gort-2060-report.pdf){.btn .btn-primary}
+
+## Overview
+
+This report explores the long-term future of Gort, County Galway, through the year 2060.
+
+Using a combination of foresight and forecasting, the project examines Gort’s potential evolution in terms of population, economy, and digitalisation to support resilient strategic decision-making for policymakers.
+
+## Recreated Analysis from Project
+
+The chart below recreates the scenario-based structure used in the Gort 2060 project by comparing the three future pathways developed in the report.
+
+```{python}
+#| code-fold: true
+
+import matplotlib.pyplot as plt
+
+scenarios = ["Best-Case", "Business-as-Usual", "Worst-Case"]
+scores = [82, 58, 31]
+
+colors = ["#6F8A6D", "#8A7A6D", "#7A6F8F"]
+
+plt.figure(figsize=(7,4))
+plt.bar(scenarios, scores, color=colors)
+
+plt.title("Scenario Comparison for Gort 2060", fontsize=14)
+plt.ylabel("Relative Future Readiness Score")
+plt.ylim(0, 100)
+
+plt.grid(axis='y', linestyle='--', alpha=0.3)
+plt.show()
+```
+
+This visualisation is a simplified recreation of the scenario-based analysis presented in the full report.
+
+The Gort 2060 project used forecasting and foresight methods to explore how the town might develop under different future conditions. The best-case scenario reflects stronger digital integration, stable investment, and improved resilience, while the worst-case scenario reflects weaker coordination, lower investment, and greater long-term challenges. Presenting the scenarios visually helps show how strategic choices made today can shape very different outcomes for the future of Gort.
+
+## Tools Used
+
+- **Horizon Scanning and Driver Mapping:** Identified signals of change and mapped the primary drivers influencing the town’s development.
+- **Axes of Uncertainty:** Used a framework to define the most critical and unpredictable factors facing the region.
+- **Scenario Development:** Created three distinct pathways—Best-Case, Worst-Case, and Business-as-Usual—to visualise Gort’s future state.
+
+## Outcome
+
+The project identified key growth assets, including Gort’s digital hub and cultural diversity, while also highlighting major challenges such as commercial vacancy and transport constraints. The final scenarios provided a roadmap for improving Gort’s competitiveness and showed that early, coordinated action and investment in youth opportunities are essential for long-term regional resilience.
+
+[← Back to Projects](index.qmd)

@@ -1,0 +1,53 @@
+---
+title: "HealthPlus International: Global Sales & Profitability Audit"
+---
+
+
+[Download Report](../docs/projects/healthplus-audit.pdf){.btn .btn-primary}
+
+## Overview
+
+This project provides a comprehensive performance audit for HealthPlus International, a global entity operating across five regions.
+
+The analysis evaluates revenue, profit margins, and sales channel efficiency across ten product categories to identify high-growth opportunities and address operational inefficiencies caused by the COVID-19 pandemic.
+
+## Recreated Analysis from Project
+
+The chart below recreates one of the main regional insights from the HealthPlus International audit by comparing profit margin performance across key regions.
+
+```{python}
+#| code-fold: true
+
+import matplotlib.pyplot as plt
+
+regions = ["Asia", "Europe", "South America", "Africa", "North America"]
+profit_margin = [24, 23, 20, 19, -7]
+
+colors = ["#6F8A6D", "#8A6F9E", "#6D7D8C", "#A67C52", "#8C6A5D"]
+
+plt.figure(figsize=(8,4.5))
+plt.bar(regions, profit_margin, color=colors)
+
+plt.title("Profit Margin by Region", fontsize=14)
+plt.ylabel("Profit Margin (%)")
+plt.axhline(0, color="black", linewidth=0.8)
+plt.grid(axis='y', linestyle='--', alpha=0.3)
+
+plt.show()
+```
+
+This visualisation is a simplified recreation of the regional performance analysis presented in the full report.
+
+The HealthPlus audit showed clear differences in profitability across regions. Asia recorded the highest profit margin, followed closely by Europe, while North America stood out as the weakest-performing region with negative profitability. This comparison helps highlight where the business is performing efficiently and where operational or pricing issues may be reducing overall returns.
+
+## Tools Used
+
+- **KPI Dashboards:** Developed visual summaries of Total Revenue (125M) and Profit (20.7M) to track global performance.
+- **Segment Analysis:** Evaluated profitability by category, such as Education versus Travel, and by region, such as Europe versus North America.
+- **Trend Analysis:** Conducted a COVID-19 recovery assessment to model profit dynamics between 2016 and 2024.
+
+## Outcome
+
+The audit highlighted key opportunities for growth and areas where profitability could be improved. It provided a clearer understanding of category and regional performance, helping support more informed business and operational decisions.
+
+[← Back to Projects](index.qmd)

@@ -1,0 +1,54 @@
+---
+title: "Fraud Pattern Recognition and Mitigation Analysis"
+---
+
+
+[Download Report](../docs/projects/fraud-pattern-recognition.pdf){.btn .btn-primary}
+
+## Overview
+
+This project involved a detailed analysis of a fraud victim dataset to identify key demographic and behavioural patterns associated with fraudulent transactions.
+
+By examining 500 transaction records, the study aimed to develop data-driven strategies to mitigate fraud risk and improve customer satisfaction, particularly for vulnerable groups.
+
+## Recreated Analysis from Project
+
+The chart below recreates one of the main findings from the fraud analysis by showing how fraud prevalence differed across selected demographic groups.
+
+```{python}
+#| code-fold: true
+
+import matplotlib.pyplot as plt
+
+# Simplified recreation of findings from the project
+groups = ["Female", "Male", "Lower Income", "Higher Income", "Older Customers", "Younger Customers"]
+fraud_prevalence = [55, 43, 58, 34, 52, 41]
+
+colors = ["#8C6A5D", "#6D7D8C", "#A67C52", "#7A8F6B", "#8A6F9E", "#5F8C87"]
+
+plt.figure(figsize=(9,5))
+plt.bar(groups, fraud_prevalence, color=colors)
+
+plt.title("Fraud Prevalence Across Selected Demographic Groups", fontsize=14)
+plt.ylabel("Fraud Prevalence (%)")
+plt.ylim(0, 70)
+plt.xticks(rotation=20)
+
+plt.show()
+```
+
+This visualisation is a simplified recreation of the demographic patterns identified in the full report.
+
+The analysis suggested that fraud was more prevalent among female customers, lower-income groups, and older customers, while higher-income groups showed lower levels of fraud exposure. These findings are important because they show that fraud risk is not distributed evenly across the dataset. Recognising these demographic patterns can help organisations design more targeted fraud prevention strategies and improve protection for more vulnerable customer groups.
+
+## Tools Used
+
+- **Data Processing:** Excel was used for data cleaning, including rounding age variables and standardising numerical features such as credit scores and income for analysis.
+- **Exploratory Data Analysis (EDA):** Python was used to generate visualisations including histograms and correlation matrices to identify trends.
+- **Statistical Techniques:** Applied descriptive statistics and outlier flagging to isolate high-risk "extreme" transactions.
+
+## Outcome
+
+The analysis identified patterns that can help organisations better understand fraud exposure and respond more effectively. The project supports more targeted fraud mitigation strategies and contributes to improving protection for higher-risk customer groups.
+
+[← Back to Projects](index.qmd)
