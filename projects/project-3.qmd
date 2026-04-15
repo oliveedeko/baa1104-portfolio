@@ -3,7 +3,7 @@ title: "Gort 2060: Strategic Foresight and Forecasting"
 ---
 
 
-[Download Report](../docs/projects/gort-2060-report.pdf){.btn .btn-primary}
+[Download Report](../project-files/gort-2060-report.pdf){.btn .btn-primary}
 
 ## Overview
 

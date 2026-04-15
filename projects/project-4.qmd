@@ -3,7 +3,7 @@ title: "HealthPlus International: Global Sales & Profitability Audit"
 ---
 
 
-[Download Report](projects/healthplus-audit.pdf){.btn .btn-primary}
+[Download Report](../project-files/healthplus-audit.pdf){.btn .btn-primary}
 
 ## Overview
 

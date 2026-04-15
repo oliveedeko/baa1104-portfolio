@@ -1,35 +1,35 @@
 {
   "contact.qmd": {
-    "contact.html": "1dc937f2"
+    "contact.html": "d204ad82"
   },
   "projects/project-4.qmd": {
-    "project-4.html": "ca2f5f9d"
+    "project-4.html": "f355c570"
   },
   "projects/project-3.qmd": {
-    "project-3.html": "d1934d0b"
+    "project-3.html": "55aaece6"
   },
   "projects/project-2.qmd": {
-    "project-2.html": "605c8ae0"
+    "project-2.html": "112544ed"
   },
   "projects/index.qmd": {
-    "index.html": "fe3cf4e3"
+    "index.html": "6e3cca46"
   },
   "projects/project-1.qmd": {
-    "project-1.html": "33e944f4"
+    "project-1.html": "c7146536"
   },
   "index.qmd": {
-    "index.html": "db0ce202"
+    "index.html": "e6165916"
   },
   "media.qmd": {
-    "media.html": "302629e8"
+    "media.html": "6b4d6557"
   },
   "about.qmd": {
-    "about.html": "3b8dd2dd"
+    "about.html": "916bfceb"
   },
   "reflections.qmd": {
-    "reflections.html": "96f0ec1a"
+    "reflections.html": "89c10c67"
   },
   "cv.qmd": {
-    "cv.html": "1bf3cf80"
+    "cv.html": "ee13c19f"
   }
 }
